@@ -1,0 +1,2 @@
+import { ProjectDetail } from "@/components/project-detail";
+export default function Page() { return <ProjectDetail index={0} />; }
