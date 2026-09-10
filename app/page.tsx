@@ -88,7 +88,7 @@ export default function Home() {
   return <>
     <a className="skip-link" href="#main">Skip to main content</a>
     <header className="site-header">
-      <a className="wordmark" href="#top">[Gattupalli Eswar]<span>.</span></a>
+      <a className="wordmark" href="#top">Gattupalli Eswar<span></span></a>
       <nav className="desktop-nav" aria-label="Primary navigation">{navItems.map((item) => <a key={item} href={`#${item.toLowerCase()}`}>{item}</a>)}</nav>
       <div className="header-right"><span className="progress-number">{String(scrollProgress).padStart(3, "0")}%</span><button className="menu-button" onClick={() => setMenuOpen(true)} aria-label="Open menu" aria-expanded={menuOpen}><Menu aria-hidden="true" /></button></div>
       <div className="progress-track"><span style={{ width: `${scrollProgress}%` }} /></div>
@@ -101,8 +101,8 @@ export default function Home() {
 
     <main id="main">
       <section className="hero" id="top">
-        <div className="hero-copy"><p className="kicker"><span /> Available for [your opportunity]</p><h1>Hi, my name is<br /><em>Satya.</em></h1><p className="hero-intro">I’m an engineer who enjoys building meaningful products and bringing people together. My background spans mechanical engineering, computer vision, programme operations, and student leadership.</p><div className="hero-actions"><a className="button primary" href="#roles">Explore my roles <ArrowDownRight /></a><a className="text-link" href="#contact">Let&apos;s talk <ArrowUpRight /></a></div></div>
-        <div className="hero-visual"><HeroThreeD /><div className="photo-placeholder"><img src="/portrait.jpg" alt="Satya" onError={(event) => { event.currentTarget.style.display = "none"; }} /><span>Satya</span></div></div>
+        <div className="hero-copy"><p className="kicker"><span /> Available for Full time opportunities in Germany</p><h1>Hi, my name is<br /><em>Narayana Manikanta Sunnit Satya Sai, Gattupalli Eswar</em></h1><p className="hero-intro">I know it is one of the longest names you have seen, You can simply call me Satya. I’m an engineer who enjoys building meaningful products and bringing people together. My background spans mechanical engineering, computer vision, programme operations, and student leadership.</p><div className="hero-actions"><a className="button primary" href="#roles">Explore my roles <ArrowDownRight /></a><a className="text-link" href="#contact">Let&apos;s talk <ArrowUpRight /></a></div></div>
+        <div className="hero-visual"><HeroThreeD /><div className="photo-placeholder"><img src="/profilepic.jpg" alt="Satya" onError={(event) => { event.currentTarget.style.display = "none"; }} /><span>Satya</span></div></div>
         <div className="scroll-note">SCROLL TO EXPLORE <span>↓</span></div>
       </section>
 

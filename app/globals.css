@@ -58,7 +58,7 @@ button { color:inherit; font:inherit; }
 .photo-placeholder span { font-size:.8rem; font-weight:800; }
 .photo-placeholder small { color:var(--muted); font-size:.62rem; margin-top:.3rem; }
 .scroll-note { position:absolute; bottom:2rem; left:50%; transform:translateX(-50%); font-size:.65rem; font-weight:800; letter-spacing:.16em; writing-mode:vertical-rl; display:flex; align-items:center; gap:.7rem; }
-.scroll-note span { font-size:1.2rem; }
+.scroll-note span { font-size:1.2rem; writing-mode:horizontal-tb; transform:none; }
 
 .section-shell { padding:clamp(5rem,10vw,10rem) clamp(1.25rem,6vw,7rem); border-top:1px solid var(--line); }
 .breadcrumb { display:flex; align-items:center; gap:.55rem; font-size:.7rem; text-transform:uppercase; letter-spacing:.12em; color:var(--muted); margin-bottom:clamp(3.5rem,7vw,6rem); }

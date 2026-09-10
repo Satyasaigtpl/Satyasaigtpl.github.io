@@ -2,7 +2,7 @@ import { ArrowLeft } from "lucide-react";
 
 export default function OperationsPage() {
   return <>
-    <header className="projects-header"><a className="wordmark" href="/">Satya<span>.</span></a><a className="text-link" href="/#roles"><ArrowLeft /> Back to roles</a></header>
+    <header className="projects-header"><a className="wordmark" href="/">Gattupalli Eswar<span>.</span></a><a className="text-link" href="/#roles"><ArrowLeft /> Back to roles</a></header>
     <main id="main" className="projects-index section-shell project-detail-page">
       <nav className="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>Operations</span></nav>
       <div className="section-title"><span>02</span><div><p>Coordination · Delivery · Collaboration</p><h1>Operations Manager</h1></div></div>
